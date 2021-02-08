@@ -6,6 +6,13 @@ public class AdressePostale {
     private int cdePostale;
     private String ville ;
 
+    public AdressePostale(int numéroDeRue, String libélléDeRue, int cdePostale, String ville) {
+        this.numéroDeRue = numéroDeRue;
+        this.libélléDeRue = libélléDeRue;
+        this.cdePostale = cdePostale;
+        this.ville = ville;
+    }
+
     public int getNuméroDeRue() {
         return numéroDeRue;
     }
